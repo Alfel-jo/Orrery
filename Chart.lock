@@ -1,0 +1,12 @@
+dependencies:
+- name: kube-prometheus-stack
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 55.11.0
+- name: metrics-server
+  repository: https://kubernetes-sigs.github.io/metrics-server/
+  version: 3.14.0
+- name: keel
+  repository: https://charts.keel.sh
+  version: 0.9.11
+digest: sha256:cd5c9b7f203e4dc86347b994687308f1a4deeed8bc882aa73219fb02ab75280a
+generated: "2026-10-27T20:19:02.656309327+01:00"
